@@ -18,3 +18,13 @@ pip install keras
 * 
 
 ## Code
+#### train.py
+```shell
+  python train.py
+```
+* Adding the noise on the images to make them look like they have been adversarial attacks.
+* Augmentation of the images with adding noise to make the model more robust.
+
+#### Inference.py
+
+## Experiment Result
