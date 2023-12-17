@@ -1,6 +1,6 @@
 # Adversarial-Attack-for-Bird-species-classification
 ![](./readme_img/testset.png)
-* This is the classification task with the adversarial-attack issue.
+* This is the classification task with the adversarial attack issue.
 ## Adversarial Attack Description:
 An adversarial example is an input to a machine learning model that is purposely designed to cause a model to make a mistake in its predictions despite resembling a valid input to a human.
 
@@ -38,3 +38,6 @@ pip install keras
 ## Experiment Result
 * Training Accuracy is 92.74%, and Training Loss is 0.2692.
 * Validation Accuracy is 74.53%, Validation Loss is 1.8250.
+
+## Conclusion
+Add noise to train on the original image so that the model can identify the test set images that have undergone an adversarial attack. However, there are many methods of adversarial attack, and the model trainer may not necessarily have access to the test set, so it is impossible to know the images of the adversarial attack appearance, So I hope that I can develop a model technology that can face various adversarial attacks in the future.
