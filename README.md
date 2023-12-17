@@ -8,7 +8,13 @@ An adversarial example is an input to a machine learning model that is purposely
 
 * Image is taken from [here](https://towardsdatascience.com/breaking-neural-networks-with-adversarial-attacks-f4290a9a45aa)
 
-## Datasets
 
+## Dependencies
+```shell
+pip install keras
+```
+## Datasets
+* Found 43622 images belonging to 300 classes inside the training dataset.
+* 
 
 ## Code
