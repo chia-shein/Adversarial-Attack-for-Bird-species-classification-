@@ -11,6 +11,7 @@ An adversarial example is an input to a machine learning model that is purposely
 
 ## Dependencies
 ```shell
+pip install tensorflow-gpu==2.4.1
 pip install keras
 ```
 ## Datasets
