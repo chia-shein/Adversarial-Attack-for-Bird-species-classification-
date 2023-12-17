@@ -1,6 +1,6 @@
 # Adversarial-Attack-for-Bird-species-classification
 ![](./readme_img/testset.png)
-
+* This is the classification task with the adversarial-attack issue.
 ## Adversarial Attack Description:
 An adversarial example is an input to a machine learning model that is purposely designed to cause a model to make a mistake in its predictions despite resembling a valid input to a human.
 
@@ -14,9 +14,14 @@ An adversarial example is an input to a machine learning model that is purposely
 pip install keras
 ```
 ## Datasets
-* Found 43622 images belonging to 300 classes inside the training dataset.
-* 
+* Images in the dataset are stored in category folders
+  ![](./readme_img/dataset.png)
 
+* Found 43622 images belonging to 300 classes inside the training dataset.
+
+|Dataset|train|Valid|Test|
+|:--:|:--:|:--:|:--:|
+|Image num|43622|1500|3244|
 ## Code
 #### train.py
 ```shell
