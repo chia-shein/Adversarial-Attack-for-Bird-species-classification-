@@ -30,7 +30,11 @@ pip install keras
 ```
 * Adding the noise on the images to make them look like they have been adversarial attacks.
 * Augmentation of the images not only with adding noise but also other common augmentation methods to make the model more robust.
+* I use two callback mechanisms, namely, the model only stores the highest Validation Accuracy and when the Validation Accuracy exceeds five epochs and does not improve, the training will be terminated early.
+* I chose Adam and SGD for training, and the final experimental results found that the accuracy results of using SGD for training were not as good as using Adam, but it may be that I have not yet found suitable SGD parameters.
 
 #### Inference.py
 
 ## Experiment Result
+* Training Accuracy is 92.74%, and Training Loss is 0.2692.
+* Validation Accuracy is 74.53%, Validation Loss is 1.8250.
