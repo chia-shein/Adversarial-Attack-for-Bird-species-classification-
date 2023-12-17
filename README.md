@@ -15,6 +15,9 @@ pip install tensorflow-gpu==2.4.1
 pip install keras
 ```
 ## Datasets
+* In order to prevent the database from being deleted, I first backed it up to my personal cloud space.
+[Training set download link](https://drive.google.com/file/d/1HIwHak0hjmaMCP5_m-HAA7FOqsodlX-l/view?usp=sharing)
+[Testing set download link](https://drive.google.com/file/d/1puSG_e91lmq2E6lGECV60lFBLKZ2YoKW/view?usp=sharing)
 * Images in the dataset are stored in category folders
   ![](./readme_img/dataset.png)
 
