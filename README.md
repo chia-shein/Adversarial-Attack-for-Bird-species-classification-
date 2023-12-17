@@ -38,6 +38,7 @@ pip install keras
 ```shell
   python inference.py
 ```
+![](./readme_img/inference.png)
 
 ## Experiment Result
 * Training Accuracy is 92.74%, and Training Loss is 0.2692.
