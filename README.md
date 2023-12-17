@@ -34,6 +34,10 @@ pip install keras
 * I chose Adam and SGD for training, and the final experimental results found that the accuracy results of using SGD for training were not as good as using Adam, but it may be that I have not yet found suitable SGD parameters.
 
 #### Inference.py
+* Inference the image inside the grading_data and write the prediction result into the CSV file.
+```shell
+  python inference.py
+```
 
 ## Experiment Result
 * Training Accuracy is 92.74%, and Training Loss is 0.2692.
